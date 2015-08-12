@@ -1,0 +1,8 @@
+(ns marchingwestwards.core)
+loadsvg
+(use 'marchingwestward.core)
+(slurp "test.svg")
+(use 'pl.danieljanus.tagsoup)
+parse-xml
+(parse-xml (slurp "test.svg"))
+(parse-string (slurp "test.svg"))
