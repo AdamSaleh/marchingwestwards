@@ -1,13 +1,16 @@
 (ns marchingwestwards.views
+    (:require-macros [marchingwestwards.core :refer [embed-svg]])
     (:require [re-frame.core :as re-frame]
-              [re-com.core :as re-com]))
+              [cljs.core.match :refer-macros [match]]
+              [re-com.core :as re-com]
+              [clojure.walk :refer [prewalk postwalk]]))
 
 ;; --------------------
 (defn home-title []
   (let [name (re-frame/subscribe [:name])]
     (fn []
       [re-com/title
-       :label (str "SWN")
+       :label (str "Marching Westward")
        :level :level1])))
 
 (defn link-to-about-page []
@@ -48,6 +51,17 @@
 
   ))
 
+(defn seq-contains? [coll target] (some #(= target %) coll))
+
+(defn get-icons []
+  (->> "icons.svg"
+      embed-svg
+      #_(postwalk (fn [x]
+        (match [x]
+          [_] x
+          :else x)
+        ))
+      str))
 
 (defn home-panel []
   [re-com/v-box
@@ -55,6 +69,7 @@
    :children [
      [home-title]
      [link-to-about-page]
+     [:pre (get-icons)]
      [:svg
         {:id "s" :version "1.1"
          :xmlns "http://www.w3.org/2000/svg"

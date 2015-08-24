@@ -1,5 +1,9 @@
 (ns marchingwestwards.core
-  (:require [pl.danieljanus.tagsoup :as ts])))
+  (:require [pl.danieljanus.tagsoup :as ts]))
 
-(def loadsvg [svg-file]
+(defn load-svg [svg-file]
   (ts/parse-string (slurp svg-file)))
+
+(defmacro embed-svg [svg-file]
+  (let [hiccup (load-svg svg-file)]
+    `~hiccup))

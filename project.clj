@@ -1,6 +1,7 @@
 (defproject marchingwestwards "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-3211"]
+                 [org.clojure/core.match "0.3.0-alpha4"]
                  [clj-tagsoup "0.3.0"]
                  [reagent "0.5.0"]
                  [re-frame "0.4.1"]

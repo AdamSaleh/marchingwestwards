@@ -52,7 +52,8 @@ goog.addDependency("../re_com/dropdown.js", ['re_com.dropdown'], ['re_com.util',
 goog.addDependency("../re_com/splits.js", ['re_com.splits'], ['re_com.util', 're_com.box', 'reagent.core', 'cljs.core', 're_com.validate']);
 goog.addDependency("../re_com/modal_panel.js", ['re_com.modal_panel'], ['cljs.core', 're_com.validate']);
 goog.addDependency("../re_com/core.js", ['re_com.core'], ['re_com.popover', 're_com.text', 're_com.box', 'cljs.core', 're_com.tabs', 're_com.alert', 're_com.datepicker', 're_com.input_time', 're_com.buttons', 're_com.tour', 're_com.selection_list', 're_com.dropdown', 're_com.misc', 're_com.splits', 're_com.modal_panel']);
-goog.addDependency("../marchingwestwards/views.js", ['marchingwestwards.views'], ['re_com.core', 'cljs.core', 're_frame.core']);
+goog.addDependency("../cljs/core/match.js", ['cljs.core.match'], ['cljs.core']);
+goog.addDependency("../marchingwestwards/views.js", ['marchingwestwards.views'], ['re_com.core', 'cljs.core', 'clojure.walk', 'cljs.core.match', 're_frame.core']);
 goog.addDependency("../marchingwestwards/db.js", ['marchingwestwards.db'], ['cljs.core']);
 goog.addDependency("../marchingwestwards/handlers.js", ['marchingwestwards.handlers'], ['cljs.core', 'marchingwestwards.db', 're_frame.core']);
 goog.addDependency("../marchingwestwards/core.js", ['marchingwestwards.core'], ['marchingwestwards.subs', 'marchingwestwards.routes', 'reagent.core', 'cljs.core', 'marchingwestwards.views', 'marchingwestwards.handlers', 're_frame.core']);
