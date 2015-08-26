@@ -2,6 +2,7 @@
     (:require-macros [marchingwestwards.core :refer [embed-svg]])
     (:require [re-frame.core :as re-frame]
               [cljs.core.match :refer-macros [match]]
+              [cljs.core.logic :as m :refer [membero]]
               [re-com.core :as re-com]
               [clojure.walk :refer [prewalk postwalk]]))
 
@@ -12,6 +13,7 @@
       [re-com/title
        :label (str "Marching Westward")
        :level :level1])))
+
 
 (defn link-to-about-page []
   [re-com/hyperlink-href
@@ -53,15 +55,19 @@
 
 (defn seq-contains? [coll target] (some #(= target %) coll))
 
+(def svg-tokens (->>
+   "icons.svg"
+    embed-svg))
+
 (defn get-icons []
-  (->> "icons.svg"
-      embed-svg
+  (->> svg-tokens
       #_(postwalk (fn [x]
         (match [x]
           [_] x
           :else x)
         ))
       str))
+
 
 (defn home-panel []
   [re-com/v-box
