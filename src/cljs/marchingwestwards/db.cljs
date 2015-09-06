@@ -1,4 +1,5 @@
 (ns marchingwestwards.db)
 
 (def default-db
-  {:name "re-frame"})
+  {:name "re-frame"
+   :default-icon :cactus})

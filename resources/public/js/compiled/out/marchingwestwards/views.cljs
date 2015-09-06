@@ -1,5 +1,6 @@
 (ns marchingwestwards.views
-    (:require-macros [marchingwestwards.core :refer [embed-svg]])
+    (:require-macros [marchingwestwards.core :refer [embed-svg]]
+                     [reagent.ratom :refer [reaction]])
     (:require [re-frame.core :as re-frame]
               [cljs.core.match :refer-macros [match]]
               [cljs.core.logic :as m :refer [membero]]
@@ -19,6 +20,79 @@
   [re-com/hyperlink-href
    :label "go to About Page"
    :href "#/about"])
+
+
+   (def svg-tokens (->>
+      "icons0.svg"
+       embed-svg))
+
+   (defn contains-under? [needle hay] ((into #{} (flatten hay)) needle))
+
+   (defn partially-flatten? [x] (and (coll? x) (contains-under? :path x)))
+
+   (defn fix-style [s]
+     (->> s
+       (#(clojure.string/split % #";"))
+       (map #(clojure.string/split % #":"))
+       (map (fn [[k v]] [(keyword k) v]))
+       (into {})
+     ))
+
+   (defn scale-path [d]
+     (->> d
+       (#(clojure.string/split % #" "))
+       (map #(clojure.string/split % #","))
+       (postwalk #(if (and (string? %) (re-matches cljs.reader/float-pattern %)) (cljs.reader/read-string %) %))
+       (postwalk #(if (number? %) (/ % 4) %))
+       (postwalk #(if (number? %) (str %) %))
+       (postwalk #(match % [a b] (str a "," b) :else %))
+       flatten
+       (clojure.string/join " ")
+       ))
+
+   (defn icon-xy [s x y]
+     (let [split (clojure.string/split s #" ")
+          replaced (match [split]
+            [[m i & r]] (into [m (str x "," y)] r)
+            :else split)]
+       (clojure.string/join " " replaced)
+       ))
+
+   (defn mk-icon-fn [path]
+     (fn [x y]
+     (postwalk #(match %
+       {:d i} (merge % {:d (icon-xy i x y)})
+       :else %) path)))
+
+   (defn get-icons []
+     (->> svg-tokens
+         (postwalk (fn [x]
+           (match [x]
+             [[:path & _]] x
+             [x :guard partially-flatten?] (reduce (fn [acc i]
+               (match [i]
+                 [[:path & _]] (into acc [i])
+                 [i :guard coll?] (into acc i)
+                 :else (into acc [i])))
+                [] x)
+             :else x
+               )))
+         (postwalk #(match %
+           {:style i} (merge % {:style (fix-style i)})
+           :else %))
+         (map #(match [%] [[:path & _]] % :else nil))
+         (remove nil?)
+         (postwalk #(match %
+           {:d i} (merge % {:d (scale-path i)})
+           :else %))
+         (map #(match %
+           [:path {:id i}] [(keyword i) (mk-icon-fn %)]
+           :else nil))
+         (reduce into [])
+         (apply hash-map)))
+
+   (def iconmap (get-icons))
+
 
 (defn hex-points [x y radius]
   (let [thetas (->> (range 0,6)
@@ -42,12 +116,15 @@
 
 (defn hexagon [x y]
   (let [pixel-x (+ 50 (* x hexagon-radius 1.5) )
-       pixel-y (+ 50 (* x (* hexagon-radius (/ 25 30))) (* y 2 (* hexagon-radius (/ 25 30))))]
+       pixel-y (+ 50 (* x (* hexagon-radius (/ 25 30))) (* y 2 (* hexagon-radius (/ 25 30))))
+       df-icon (re-frame/subscribe [:default-icon])
+       icon-path (reaction (iconmap @df-icon)) ]
   [:g {:x pixel-x :y pixel-y}
     [:polygon
       {:points (hex-point-string pixel-x pixel-y hexagon-radius)
       :style {:fill "rgb(255, 255, 255)" :stroke "rgb(0, 0, 0)" :stroke-width "1px"}}]
-      [:image {:x pixel-x :y pixel-y :width "100" :height "100" :xlink:href "http://127.0.0.1:3449/assets/hexbg/bw-forest.png"}]
+      [@icon-path pixel-x pixel-y]
+
       [:text  {:x pixel-x :y pixel-y :fill "red"} (clojure.string/join " " (axial-to-orthogonal x  y))]
   ]
 
@@ -55,27 +132,20 @@
 
 (defn seq-contains? [coll target] (some #(= target %) coll))
 
-(def svg-tokens (->>
-   "icons.svg"
-    embed-svg))
-
-(defn get-icons []
-  (->> svg-tokens
-      #_(postwalk (fn [x]
-        (match [x]
-          [_] x
-          :else x)
-        ))
-      str))
-
-
 (defn home-panel []
+  (let [df-icon (re-frame/subscribe [:default-icon])]
   [re-com/v-box
    :gap "1em"
    :children [
      [home-title]
      [link-to-about-page]
-     [:pre (get-icons)]
+     [:pre @df-icon]
+
+     [re-com/h-box
+      :children [
+      (for [b (keys iconmap)]
+           [:button  {:on-click #(re-frame/dispatch [:set-default-icon b])} (str b)])
+      ]]
      [:svg
         {:id "s" :version "1.1"
          :xmlns "http://www.w3.org/2000/svg"
@@ -88,7 +158,8 @@
                (>= (- 9 (Math.floor (/ x 2))) y)
              )]
              [hexagon x y])
-     ]]])
+
+     ]]]))
 
 ;; --------------------
 (defn about-title []

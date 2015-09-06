@@ -10,7 +10,8 @@
   (reagent/render [views/main-panel]
                   (.getElementById js/document "app")))
 
-(defn ^:export init [] 
+(defn ^:export init []
   (routes/app-routes)
   (re-frame/dispatch-sync [:initialize-db])
+  (re-frame/dispatch-sync [:set-default-icon :cactus])
   (mount-root))

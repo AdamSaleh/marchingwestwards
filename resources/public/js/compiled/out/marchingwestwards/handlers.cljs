@@ -11,3 +11,8 @@
  :set-active-panel
  (fn [db [_ active-panel]]
    (assoc db :active-panel active-panel)))
+
+(re-frame/register-handler
+  :set-default-icon
+  (fn [db [_ d-icon]]
+    (assoc db :default-icon d-icon)))
