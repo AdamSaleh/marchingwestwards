@@ -16,3 +16,11 @@
   :set-default-icon
   (fn [db [_ d-icon]]
     (assoc db :default-icon d-icon)))
+
+(re-frame/register-handler
+  :set-tile
+  (fn [db [_ x y]]
+    (let [m (db :map)
+          d-icon (db :default-icon)
+          updated (assoc m [x y] d-icon)]
+    (assoc db :map updated))))

@@ -16,3 +16,8 @@
  :default-icon
  (fn [db _]
    (reaction (:default-icon @db))))
+
+ (re-frame/register-sub
+  :map
+  (fn [db _]
+    (reaction (:map @db))))

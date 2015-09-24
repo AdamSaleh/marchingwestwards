@@ -2621,3 +2621,232 @@ notifying browser that file changed:  \marchingwestwards\handlers.js
 [32mSuccessfully compiled "resources/public/js/compiled/app.js" in 4.319 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.852 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.495 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.13 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.669 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter } on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\db.cljs, line 34, column 14
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.3 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.215 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.218 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.322 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/icon-path at line 128 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.197 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.27 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.852 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/icon at line 162 src\cljs\marchingwestwards\views.cljs
+WARNING: Use of undeclared Var marchingwestwards.views/icon at line 162 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.036 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.695 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\cljs\marchingwestwards\views.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3100.invoke (compiler.clj:1142)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1177)
+    cljs.closure$compile_dir.invoke (closure.clj:378)
+    cljs.closure$eval3516$fn__3517.invoke (closure.clj:418)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    cljs.closure$eval3503$fn__3504.invoke (closure.clj:432)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1446)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17418.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17451.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17415.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17215.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17221.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17221.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17221.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17224.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17218.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.967 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.8 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.864 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.115 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\subs.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.016 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.982 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/mp at line 138 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.307 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/m at line 138 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.874 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.305 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.277 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.295 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.09 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.88 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.515 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.366 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.517 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\routes.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.737 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.238 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 128, column 86
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.handlers/updated at line 27 src\cljs\marchingwestwards\handlers.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.96 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.732 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.373 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 128, column 86
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.83 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.628 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.815 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.383 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.352 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.38 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.73 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.755 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.745 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.985 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.348 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.72 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js

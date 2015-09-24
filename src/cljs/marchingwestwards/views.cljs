@@ -5,6 +5,7 @@
               [cljs.core.match :refer-macros [match]]
               [cljs.core.logic :as m :refer [membero]]
               [re-com.core :as re-com]
+              [cljs.reader :as reader]
               [clojure.walk :refer [prewalk postwalk]]))
 
 ;; --------------------
@@ -42,7 +43,7 @@
      (->> d
        (#(clojure.string/split % #" "))
        (map #(clojure.string/split % #","))
-       (postwalk #(if (and (string? %) (re-matches cljs.reader/float-pattern %)) (cljs.reader/read-string %) %))
+       (postwalk #(if (and (string? %) (re-matches reader/float-pattern %)) (cljs.reader/read-string %) %))
        (postwalk #(if (number? %) (/ % 4) %))
        (postwalk #(if (number? %) (str %) %))
        (postwalk #(match % [a b] (str a "," b) :else %))
@@ -114,18 +115,19 @@
 (defn axial-to-orthogonal [x y]
   [x (+ y (Math.floor (/ x 2)))])
 
-(defn hexagon [x y]
+(defn hexagon [icon x y]
   (let [pixel-x (+ 50 (* x hexagon-radius 1.5) )
        pixel-y (+ 50 (* x (* hexagon-radius (/ 25 30))) (* y 2 (* hexagon-radius (/ 25 30))))
-       df-icon (re-frame/subscribe [:default-icon])
-       icon-path (reaction (iconmap @df-icon)) ]
+       ;df-icon (re-frame/subscribe [:default-icon])
+       icon-path (iconmap icon)
+        ]
   [:g {:x pixel-x :y pixel-y}
     [:polygon
       {:points (hex-point-string pixel-x pixel-y hexagon-radius)
       :style {:fill "rgb(255, 255, 255)" :stroke "rgb(0, 0, 0)" :stroke-width "1px"}}]
-      [@icon-path pixel-x pixel-y]
-
-      [:text  {:x pixel-x :y pixel-y :fill "red"} (clojure.string/join " " (axial-to-orthogonal x  y))]
+      [icon-path pixel-x pixel-y]
+      [:text  {:x pixel-x :y pixel-y   :on-click #(re-frame/dispatch [:set-tile x y])
+       :fill "red"} (clojure.string/join " " (axial-to-orthogonal x  y))]
   ]
 
   ))
@@ -133,7 +135,9 @@
 (defn seq-contains? [coll target] (some #(= target %) coll))
 
 (defn home-panel []
-  (let [df-icon (re-frame/subscribe [:default-icon])]
+  (let [df-icon (re-frame/subscribe [:default-icon])
+        m (re-frame/subscribe [:map])
+        ]
   [re-com/v-box
    :gap "1em"
    :children [
@@ -154,10 +158,12 @@
         (for [x (range 0 8)
              y (range -5 10)
              :when (and
+               (not (nil? (@m [x y])))
                (<= (- 0 (/ x 2)) y)
                (>= (- 9 (Math.floor (/ x 2))) y)
              )]
-             [hexagon x y])
+
+             [hexagon (@m [x y]) x y])
 
      ]]]))
 
