@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 0.0-3211
+{:use-macros {reaction reagent.ratom}, :excludes #{}, :name marchingwestwards.subs, :imports nil, :requires {re-frame.core re-frame.core, re-frame re-frame.core}, :uses nil, :require-macros {reagent.ratom reagent.ratom}, :cljs.analyzer/constants {:order [:name :active-panel :default-icon :map :mouse], :seen #{:name :mouse :default-icon :active-panel :map}}, :doc nil}

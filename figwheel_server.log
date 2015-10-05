@@ -2850,3 +2850,163 @@ notifying browser that file changed:  \marchingwestwards\handlers.js
 [0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
 [32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.72 seconds.[0m
 notifying browser that file changed:  \marchingwestwards\handlers.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.758 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.704 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.105 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.263 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.669 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.23 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.515 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.384 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.601 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.01 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.819 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.203 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.659 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.533 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.49 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.67 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 4.01 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.304 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.562 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.435 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.738 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.663 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.464 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.918 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.525 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 6.135 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.843 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.128 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.279 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.772 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.925 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.656 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.732 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.907 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.457 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.541 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Invalid token: : on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 147, column 26
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.065 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.456 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
