@@ -110,13 +110,27 @@
 
 (def hexagon-radius 40)
 
-
 (defn axial-to-orthogonal [x y]
   [x (+ y (Math.floor (/ x 2)))])
 
+(defn orthogonal-to-axial [x y]
+  [x (- y (Math.floor (/ x 2)))])
+
+(defn pixel-to-hexagon [px py]
+  (let [ x  (Math.floor (+ (/ (- px 50) (* hexagon-radius 1.5)) 0.5))
+         ; x = (px - 50) / (hexagon-radius * 1.5)
+         y (Math.floor (- (* 0.5 (/ (- py 50) (* hexagon-radius (/ 5 6)))) 6))
+         ; y = 0.5 * (px - 50) / (hexagon-radius * (5/6)) - x*0.5
+    ]
+    {:x x :y y}
+    )
+  )
+
 (defn hexagon [icon x y]
   (let [pixel-x (+ 50 (* x hexagon-radius 1.5) )
-       pixel-y (+ 50 (* x (* hexagon-radius (/ 25 30))) (* y 2 (* hexagon-radius (/ 25 30))))
+       ; px = 50 + x*hexagon-radius*1.5
+       pixel-y (+ 50 (* x  hexagon-radius (/ 25 30)) (* y 2  hexagon-radius (/ 25 30)))
+       ; py = 50 + hexagon-radius * (5/6) * ( x + 2y )
        ;df-icon (re-frame/subscribe [:default-icon])
        icon-path (iconmap icon)
         ]
@@ -124,8 +138,10 @@
     [:polygon
       {:points (hex-point-string pixel-x pixel-y hexagon-radius)
       :style {:fill "rgb(255, 255, 255)" :stroke "rgb(0, 0, 0)" :stroke-width "1px"}}]
+      (if icon-path
       [icon-path pixel-x pixel-y (str "icon_terain_" x "_" y)]
-      [:text  {:x pixel-x :y pixel-y   :on-click #(re-frame/dispatch [:set-tile x y])
+      [:g])
+      [:text  {:x pixel-x :y pixel-y
        :fill "red"} (clojure.string/join " " (axial-to-orthogonal x  y))]
   ]
 
@@ -137,6 +153,8 @@
   (let [df-icon (re-frame/subscribe [:default-icon])
         m (re-frame/subscribe [:map])
         mouse (re-frame/subscribe [:mouse])
+        mousehex (reaction (pixel-to-hexagon (@mouse :x) (@mouse :y)))
+        axial-mousehex (reaction (zipmap [:x :y] (orthogonal-to-axial (@mousehex :x) (@mousehex :y))))
         ]
   [re-com/v-box
    :gap "1em"
@@ -145,6 +163,9 @@
      [link-to-about-page]
      [:pre @df-icon]
      [:pre (@mouse :x) ":" (@mouse :y)]
+     [:pre (@mousehex :x) ":" (@mousehex :y)]
+     [:pre (@axial-mousehex :x) ":" (@axial-mousehex :y)]
+
      [re-com/h-box
       :children [
       (for [b (keys iconmap)]
@@ -156,10 +177,11 @@
          :xmlns "http://www.w3.org/2000/svg"
          :width (* 8 1.8 hexagon-radius) :height (* 10 1.8 hexagon-radius)
          :on-mouse-move (fn [evt]
-           (let [x (.-clientX evt)
-                 y (.-clientY evt)]
+           (let [x (.-pageX evt)
+                 y (.-pageY evt)]
            (re-frame/dispatch
              [:set-mouse-xy x y])))
+          :on-click #(re-frame/dispatch [:set-tile (@axial-mousehex :x) (@axial-mousehex :y)])
         }
         (for [x (range 0 8)
              y (range -5 10)
@@ -168,7 +190,7 @@
                (>= (- 9 (Math.floor (/ x 2))) y)
              )]
 
-             [hexagon (if (not (nil? (@m [x y]))) (@m [x y]) @df-icon) x y])
+             [hexagon (if (not (nil? (@m [x y]))) (@m [x y]) nil) x y])
 
      ]]]))
 

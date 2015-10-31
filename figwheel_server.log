@@ -3010,3 +3010,217 @@ notifying browser that file changed:  \marchingwestwards\views.js
 [32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.456 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.518 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.559 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.76 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.085 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.727 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.994 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.578 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.406 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.368 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.222 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.84 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.91 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/floor at line 118 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 8.396 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/floor at line 118 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.687 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/floor at line 118 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.026 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.385 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.353 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.939 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 122, column 6
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.438 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.6 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.046 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.446 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 4.364 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\subs.js
+notifying browser that file changed:  \marchingwestwards\routes.js
+notifying browser that file changed:  \marchingwestwards\views.js
+notifying browser that file changed:  \marchingwestwards\db.js
+notifying browser that file changed:  \marchingwestwards\core.js
+notifying browser that file changed:  \marchingwestwards\handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 118, column 71
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 118, column 71
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 5.16 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.458 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.463 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.029 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.874 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.937 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.842 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 188, column 8
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.745 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.46 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.505 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.882 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.87 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var marchingwestwards.views/zip at line 157 src\cljs\marchingwestwards\views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.308 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file C:\Users\Majka\Documents\GitHub\marchingwestwards\src\cljs\marchingwestwards\views.cljs, line 157, column 98
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.148 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.295 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.603 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.05 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.035 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.54 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.56 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.195 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 3.06 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.608 seconds.[0m
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.83 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 5.267 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  \marchingwestwards\views.js

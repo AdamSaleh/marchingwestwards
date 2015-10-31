@@ -1,0 +1,5 @@
+ERR! [Error: Missing required arguments: team]
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "node" "C:\\Users\\Majka\\AppData\\Roaming\\npm\\node_modules\\fh-fhc\\bin\\fhc.js" "admin" "teams" "create"
+verbose exit [ 1, true ]
